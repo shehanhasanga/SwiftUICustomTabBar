@@ -11,6 +11,9 @@
 		BE863F3727BE0A6600FDBD3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE863F3627BE0A6600FDBD3F /* ContentView.swift */; };
 		BE863F3927BE0A6700FDBD3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE863F3827BE0A6700FDBD3F /* Assets.xcassets */; };
 		BE863F3C27BE0A6700FDBD3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE863F3B27BE0A6700FDBD3F /* Preview Assets.xcassets */; };
+		BE863F4327BE0B5400FDBD3F /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE863F4227BE0B5400FDBD3F /* CustomTabBarView.swift */; };
+		BE863F4527BE0F7000FDBD3F /* TabBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE863F4427BE0F7000FDBD3F /* TabBarContainerView.swift */; };
+		BE863F4727BE175800FDBD3F /* TabBarPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE863F4627BE175800FDBD3F /* TabBarPreferenceKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		BE863F3627BE0A6600FDBD3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BE863F3827BE0A6700FDBD3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE863F3B27BE0A6700FDBD3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE863F4227BE0B5400FDBD3F /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
+		BE863F4427BE0F7000FDBD3F /* TabBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarContainerView.swift; sourceTree = "<group>"; };
+		BE863F4627BE175800FDBD3F /* TabBarPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarPreferenceKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 				BE863F3627BE0A6600FDBD3F /* ContentView.swift */,
 				BE863F3827BE0A6700FDBD3F /* Assets.xcassets */,
 				BE863F3A27BE0A6700FDBD3F /* Preview Content */,
+				BE863F4227BE0B5400FDBD3F /* CustomTabBarView.swift */,
+				BE863F4427BE0F7000FDBD3F /* TabBarContainerView.swift */,
+				BE863F4627BE175800FDBD3F /* TabBarPreferenceKey.swift */,
 			);
 			path = CustomTabBar;
 			sourceTree = "<group>";
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE863F4327BE0B5400FDBD3F /* CustomTabBarView.swift in Sources */,
+				BE863F4727BE175800FDBD3F /* TabBarPreferenceKey.swift in Sources */,
 				BE863F3727BE0A6600FDBD3F /* ContentView.swift in Sources */,
+				BE863F4527BE0F7000FDBD3F /* TabBarContainerView.swift in Sources */,
 				BE863F3527BE0A6600FDBD3F /* CustomTabBarApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
